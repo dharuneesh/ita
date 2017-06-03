@@ -13,6 +13,11 @@ class ApplicationController < ActionController::Base
   end
 
   def secret
+    Rails.logger.debug "ddebug checking #{current_user.inspect}"
+  end
+
+  def personal
+    
   end
 
   protected

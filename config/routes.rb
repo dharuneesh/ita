@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get '/secret', to: 'application#secret', as: 'secret'
   get '/about', to: 'application#about', as: 'about'
   get '/contact', to: 'application#contact', as: 'contact'
+  get '/personal', to: 'application#personal', as: 'personal'
 end
