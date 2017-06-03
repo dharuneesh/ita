@@ -30,6 +30,7 @@ end
 group :production do
   gem 'pg', '0.18.4'
   gem 'thin'
+  gem 'rails_12factor'
 end
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
