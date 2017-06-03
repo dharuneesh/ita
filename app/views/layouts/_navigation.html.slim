@@ -1,7 +1,7 @@
 ul class="nav navbar-nav"
   li= link_to('<span class="glyphicon glyphicon-home"></span> Home'.html_safe, root_path)
   - if current_user
-    - if current_user.email == 'nishasath@gmail.com'
+    - if current_user.email == 'nishasathy@gmail.com'
       li= link_to('<span class="glyphicon glyphicon-love"></span> Personal'.html_safe, personal_path)
     - else
       li= link_to('<span class="glyphicon glyphicon-lock"></span> Secret'.html_safe, secret_path)    

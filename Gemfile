@@ -28,7 +28,7 @@ end
 
 # always use: "bundle install --without production" command to install gems during development
 group :production do
-  gem 'pg'
+  gem 'pg', '0.15.1'
   gem 'thin'
 end
 
